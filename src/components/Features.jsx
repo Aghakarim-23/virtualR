@@ -2,7 +2,7 @@ import {features} from '../constants'
 
 const Features = () => {
   return (
-    <div className='mt-8 text-center m-auto text-white'>
+    <div className='mt-8 text-center m-auto text-white' id='features'>
         <h5 className='text-orange-500 py-[2px] rounded-md bg-gray-900 w-[70px] m-auto'>Feature</h5>
         <h3 className='text-3xl lg:text-6xl w-[200px] lg:w-full m-auto mt-8'>Easy build <span className='bg-gradient-to-r from-orange-500 to-orange-800 bg-clip-text text-transparent'>your code</span></h3>
        

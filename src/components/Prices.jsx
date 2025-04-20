@@ -4,9 +4,9 @@ import {pricingOptions} from '../constants'
 
 const Prices = () => {
   return (
-    <div className='mt-10 lg:mt-20 text-white'>
+    <div className='mt-10 lg:mt-20 text-white' id='pricing'>
         <h1 className='text-4xl lg:text-8xl text-center mb-10'>Pricing</h1>
-        <div className='flex flex-col lg:flex-row lg:justify-center lg:mt-20 gap-5 lg:gap-20 px-3 '>
+        <div className='flex flex-wrap justify-center lg:mt-20 gap-10 lg:gap-20 px-3 '>
             {pricingOptions.map((price,index) => (
                 <div key={index} className='flex flex-col gap-6 border-2 border-white p-5 rounded-lg max-w-[350px] w-full'>
                     <h2 className='text-4xl'>{price.title}

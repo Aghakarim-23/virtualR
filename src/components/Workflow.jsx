@@ -5,8 +5,10 @@ import { checklistItems } from '../constants'
 
 const Workflow = () => {
   return (
-    <div className='mt-10 text-white'>
-        <h1 className='text-center text-3xl lg:text-5xl w-[250px] lg:w-full m-auto'>Accelerate your <span className='bg-gradient-to-r from-orange-500 to-orange-600 text-transparent bg-clip-text'>coding workflow.</span></h1>
+    <div className='mt-10 text-white' id='workflow'>
+
+        <h1 className='my-12 text-center text-3xl lg:text-5xl w-[250px] lg:w-full mx-auto'>Accelerate your <span className='bg-gradient-to-r from-orange-500 to-orange-600 text-transparent bg-clip-text'>coding workflow.</span></h1>
+
         <div className='mt-10 lg:flex lg:justify-around lg:items-center px-3'>
             <img src={code} className='lg:w-[600px]' alt="" />
             <div className='flex  flex-col mt-10 lg:mt-20 px-4 gap-8'>
@@ -29,3 +31,4 @@ const Workflow = () => {
 }
 
 export default Workflow
+
